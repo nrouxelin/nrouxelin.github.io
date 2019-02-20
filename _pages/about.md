@@ -1,16 +1,17 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: Nathan <strong>Rouxelin</strong> 
+description:
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Inria Bordeaux Sud Ouest</p>
+    <p>UFR Sciences, Bat. B1</p>
+    <p>Avenue de l'Université</p>
+    <p>64000 Pau, France</p>
 
 news: true
 social: true
