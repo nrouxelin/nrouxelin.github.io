@@ -5,6 +5,7 @@ title: publications
 description: A list of my publications
 years_talks: [2021, 2019]
 years_preprints: [2021]
+years_posters: [2021, 2018]
 nav: true
 ---
 <div class="publications">
@@ -23,4 +24,10 @@ nav: true
   {% bibliography -f papers -q @inproceedings[year={{y}}] %}
 {% endfor %}
 
+<h2> posters </h2>
+
+{% for y in page.years_posters %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f papers -q @conference[year={{y}}] %}
+{% endfor %}
 </div>
