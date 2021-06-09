@@ -5,7 +5,7 @@
     <div class="container">
       {% if page.title != "about" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-       {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% endif %}
+        {% if site.title == blank %}{{ site.title }}{% else %}{{ site.first_name }} {{ site.middle_name }}  <span class="font-weight-bold">{{ site.last_name }}</span>{% endif %}
       </a>
       {% elsif site.show_social_icons %}
         <!-- Social Icons -->
@@ -31,8 +31,9 @@
               {% endif %}
             </a>
           </li>
-          {% if site.blog_name %}
+          <!-- {% if site.blog_name %} -->
           <!-- Blog -->
+          <!--
           <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
             <a class="nav-link" href="{{ '/blog/' | relative_url }}">
               blog
@@ -41,7 +42,7 @@
               {% endif %}
             </a>
           </li>
-          {% endif %}
+          {% endif %} -->
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: "title" %}
           {% for p in sorted_pages %}

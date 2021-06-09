@@ -1,9 +1,11 @@
+
 ---
 layout: page
-title: HDG methods
-description: new HDG methods for convected waves in time-harmonic domain
+title: ABC
+description: absorbing boundary conditions for the convected Helmholtz equation
 img: /assets/img/gaussian_jet.png
 importance: 1
+category: "Numerical methods for harmonic wave problems with convection"
 ---
 
 Every project has a beautiful feature showcase page.
