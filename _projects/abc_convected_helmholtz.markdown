@@ -11,7 +11,7 @@ Many wave propagation problems are set in unbounded domain.
 To perform numerical simulations, it is required to truncate this domain to obtain a finite computational region that can be handled by computers.
 
 The two most popular domain truncation techniques are
-- **Perfectly Matched Layers** (PML): a layer of absorbing material is added oustid the domain of interest, here *perfectly matched* means that no reflection should appear at the interface between the physical domain and absorbing layer,
+- **Perfectly Matched Layers** (PML): a layer of absorbing material is added outside the domain of interest, here *perfectly matched* means that no reflection should appear at the interface between the physical domain and absorbing layer,
 - **Absorbing Boundary Conditions** (ABC): the physical domain is surrounded by an *artificial boundary* on which a non-reflecting boundary conditions is enforced, when the dimension of the domain is greater than one, exact ABCs are non-local and devising local approximation of those ABCs is a challenging problem.
 
 
