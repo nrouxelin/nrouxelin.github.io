@@ -2,8 +2,7 @@
 layout: page
 title: gravity
 description: reduced models involving gravity
-importance: 2
-category: "Aeroacoustic modelling for helioseismology"
+importance: 4
 ---
 
 Coming soon !

@@ -135,3 +135,11 @@ Solving an equation using a HDG method is therefore a two-step process :
 <div class="caption">
 Some numerical results obtained with the HDG method. Left, point source in a uniform flow. Middle, interferences between two point sources. Right, point source in a non-uniform flow (gaussian profile between the red lines).
 </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/conv_helm.gif' | relative_url }}" alt="" title="res 3" />
+    </div>
+</div>
+<div class="caption">
+ Point source in a potential flow around a circular obstacle.
+</div>

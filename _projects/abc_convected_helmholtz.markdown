@@ -31,14 +31,18 @@ As for the derivation of stable PMLs for the convected Helmholtz equation, the m
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/p_abc_interf.png' | relative_url }}" alt="" title="res 2" />
     </div>
+</div>
+<div class="caption">
+Some numerical results obtained with the HDG method. Left, point source in a uniform flow. Right, interferences between two point sources. </div>
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/conv_helm_pot_abc.png' | relative_url }}" alt="" title="res 3" />
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/conv_helm.gif' | relative_url }}" alt="" title="res 3" />
     </div>
 </div>
 <div class="caption">
-Some numerical results obtained with the HDG method. Left, point source in a uniform flow. Middle, interferences between two point sources. Right, point source in a potential flow around a circular obstacle (in black).
+ Point source in a potential flow around a circular obstacle.
 </div>
-
 <!--
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

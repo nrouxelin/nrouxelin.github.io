@@ -10,14 +10,14 @@ nav: true
 
 |Year|Position |
 |----|-|
-|2018-... | **PhD candidate** in Applied Mathematics <br/> University of Pau and Inria Bordeaux -- Sud-Ouest, France <br/> Advisors: Hélène Barucq and Sébastien Tordeux <br/> Funding: [e2s-UPPA](https://e2s-uppa.eu/fr/index.html)|
+|2022-...| **Postdoctoral researcher** in Applied Mathematics <br/> INSA de Rouen, France <br/> Advisor: Hasnaa Zidani |
 |-----|-------|
  
 ## Education
  
 |Year|Program |
 |----|-|
-|2018-... | **PhD in Applied Mathematics** <br/> University of Pau, France|
+|2018-2021 | **PhD candidate** in Applied Mathematics <br/> University of Pau and Inria Bordeaux -- Sud-Ouest, France <br/> Advisors: Hélène Barucq and Sébastien Tordeux <br/> Funding: [e2s-UPPA](https://e2s-uppa.eu/fr/index.html) <br/> Thesis : [Here]({{ '/assets/pdf/these_rouxelin_finale.pdf' | relative_url }})|
 |-----|-------|
 |2013 - 2018 | **MEng in Applied Mathematics and Software Engineering**  <br/> INSA Rouen, France <br/> [Details on the program](https://www.insa-rouen.fr/en/education/engineering-specialization/mathematical-and-software-engineering)|
 |------------|--------------------|
