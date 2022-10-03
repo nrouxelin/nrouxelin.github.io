@@ -1,7 +1,50 @@
 ---
 ---
 
+@article{jcp2022,
+title = {Low-order Prandtl-Glauert-Lorentz based Absorbing Boundary Conditions for solving the convected Helmholtz equation with Discontinuous Galerkin methods},
+journal = {Journal of Computational Physics},
+volume = {468},
+pages = {111450},
+year = {2022},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2022.111450},
+html = {https://www.sciencedirect.com/science/article/pii/S0021999122005125},
+author = {Hélène Barucq and Nathan Rouxelin and Sébastien Tordeux},
+keywords = {Convected Helmholtz equation, Absorbing Boundary Conditions, ABC, Prandtl Glauert Lorentz transformation},
+abstract = {We construct Absorbing Boundary Conditions (ABCs) for the convected Helmholtz equation that are easy to implement in a Hybridizable Discontinuous Galerkin (HDG) formulation. The construction is based upon the Prandtl-Glauert-Lorentz map which transforms the convected Helmholtz equation into the regular Helmholtz equation. The new ABCs are thus issued from classical Bayliss-Gunztburger-Turkel ABCs and are valid for carrier flows that vary inside the computational domain but become uniform far away from the source. They lead to accurate numerical results for low and intermediate Mach numbers using a HDG formulation with the acoustic potential and the total flux as unknowns.},
+abbr={JCP}
+}
 
+@InProceedings{cmam2022,
+  abbr={CMAM},
+  author={Rouxelin, Nathan and Barucq, H\'el\`ene, and Tordeux, S\'ebastien},
+  title={A HDG framework for convected wave equations: Applications in helioseismology},
+  year={2022},
+  booktitle={CMAM 2022 (Vienna)-- Computational Methods in Applied Mathematics},
+}
+@InProceedings{waves2022,
+  abbr={WAVES},
+  author={Rouxelin, Nathan and Barucq, H\'el\`ene, and Tordeux, S\'ebastien},
+  title={Low-order Absorbing Boundary Conditions in HDG
+discretization of the convected Helmholtz equation},
+  year={2022},
+  booktitle={WAVES 2022 (Palaiseau)-- 15th International Conference and Mathematical and Numerical Aspects of Wave Propagation},
+}
+@InProceedings{waves2022,
+  abbr={CANUM},
+  author={Rouxelin, Nathan and Barucq, H\'el\`ene, and Tordeux, S\'ebastien},
+  title={Conditions limites absorbantes d’ordre faible pour l’équation de Helmholtz convectée},
+  year={2022},
+  booktitle={CANUM (Évian-les-bains) -- 45eme Congrès d'Analyse Numérique},
+}
+@InProceedings{canum2022_hjb,
+  abbr={CANUM},
+  author={Rouxelin, Nathan and Zidani, Hasnaa},
+  title={Méthodes de différences finies pour des équations de Hamilton-Jacobi dans des milieux stratifiés},
+  year={2022},
+  booktitle={CANUM (Évian-les-bains) -- 45eme Congrès d'Analyse Numérique},
+}
 @InProceedings{WCCM2020,
   abbr={WCCM-ECCOMAS},
   author={Rouxelin, Nathan and Barucq, H\'el\`ene, and Tordeux, S\'ebastien},
@@ -63,12 +106,4 @@ booktitle={Curves and surfaces 2018},
 year={2018}
 }
 
-@unpublished{RRabc,
-  abbr={Pre-Print},
-  author={Barucq, H\'el\`ene and Rouxelin, Nathan and Tordeux, S\'ebastien},
-  title={Prandtl-Glauert-Lorentz-based Absorbing Boundary Conditions for the convected Helmholtz equation},
-  year={2021},
-  pubstate={Under revision},
-  html={https://hal.inria.fr/hal-03288930}
-} 
  

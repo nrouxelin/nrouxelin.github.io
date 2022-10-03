@@ -23,6 +23,8 @@ This leads to local ABCs that are efficient and easy to implement.
 
 As for the derivation of stable PMLs for the convected Helmholtz equation, the main tool of this work is the *Prandtl-Glauert-Lorentz transformation* which transforms the convected Helmholtz equation to the standard Helmholtz equation.
 
+This work has been published [here](https://doi.org/10.1016/j.jcp.2022.111450) and has been presented at the CANUM and WAVES conferences in 2022.
+
 ### Some numerical results
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
