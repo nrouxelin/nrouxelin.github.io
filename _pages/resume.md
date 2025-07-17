@@ -3,7 +3,7 @@ layout: page
 permalink: /resume/
 title: resume
 description: 
-nav: true
+nav: false
 ---
 
 ## Current position
